@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <h2>Index @DateTime.Now </h2>
+    @for (var i = 10; i < 21; i++)
+    {
+        <p>
+            @{
+                var myMessage = "Hello World";
+            }
+
+            @myMessage
+        </p>
+    }
+    @RenderPage("Index.cshtml")
+
+</body>
+</html>
