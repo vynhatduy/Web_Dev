@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #fa605a;
+  --secondary-color: #fff4ee;
+  --text-color: #313035;
+  --white-color: #cccccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* img:hover{
+  transform: scale(1.5);
+}
